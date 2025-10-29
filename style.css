@@ -7,12 +7,12 @@
 
 
 .aa {
-  
+ 
 
-    background-image: url('/assets/qush.png') , url('/assets/Vector.png');
+    background-image: url('/assets/qush.png'), url('/assets/Vector.png');
     background-repeat: no-repeat;
-    background-position: 640px 100px , 900px 100px;
-    background-size: 900px , 600px;
+    background-position: 640px 100px, 900px 100px;
+    background-size: 900px, 600px;
 
     display: flex;
 
@@ -26,7 +26,7 @@
 .container {
     overflow: hidden;
     display: flex;
-    width: 1200px;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,22 +68,49 @@
 
 }
 
-.left{
-    
+.left img {
+    margin-bottom: 3px;
+width: 30px;
+height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
-.name{
-    display: inline-block   ;
+
+
+.btn {
+    position: absolute;
+    left: 1400px;
+    background-color: #0B1902;
+    border: none;
+    border: 1px solid #9DE03F;
+    padding: 10px;
+    color: #9DE03F;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.left
+{
+    width: 200px;
+    display: flex;
+}
+
+.name {
+
+    display: inline-block;
     margin-bottom: 10px;
     width: 233.37559509277344;
-height: 15.806900024414062;
-color: #9DE03F;
-opacity: 1;
-top: 69.34px;
-font-family: "Badeen Display", system-ui;
-left: 99px;
+    height: 15.806900024414062;
+    color: #9DE03F;
+    opacity: 1;
+    top: 69.34px;
+    font-family: "Badeen Display", system-ui;
+    left: 99px;
 
 }
+
 .unl {
 
     margin-top: 30px;
@@ -97,10 +124,11 @@ left: 99px;
 }
 
 .head {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 1200x;
     display: flex;
     height: 100px;
 }
