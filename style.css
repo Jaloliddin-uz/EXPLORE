@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+.aa {
+  
+
+    background-image: url('/assets/qush.png') , url('/assets/Vector.png');
+    background-repeat: no-repeat;
+    background-position: 640px 100px , 900px 100px;
+    background-size: 900px , 600px;
+
+    display: flex;
+
+    overflow: hidden;
+    background-color: #0B1902;
+    height: 100vh;
+
+}
+
+
+.container {
+    overflow: hidden;
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bard {
+    overflow: hidden;
+    background-color: #9DE03F;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.chase {
+    font-family: "Badeen Display", system-ui;
+    margin-top: 200px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 65px;
+    color: #9DE03F;
+
+    line-height: 100%;
+    letter-spacing: -1%;
+    text-transform: uppercase;
+
+}
+
+.button {
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #9DE03F;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.left{
+    
+}
+
+.name{
+    display: inline-block   ;
+    margin-bottom: 10px;
+    width: 233.37559509277344;
+height: 15.806900024414062;
+color: #9DE03F;
+opacity: 1;
+top: 69.34px;
+font-family: "Badeen Display", system-ui;
+left: 99px;
+
+}
+.unl {
+
+    margin-top: 30px;
+    font-family: "Badeen Display", system-ui;
+    font-weight: 200;
+    font-style: Medium;
+    color: #9DE03F;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.head {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200x;
+    display: flex;
+    height: 100px;
+}
